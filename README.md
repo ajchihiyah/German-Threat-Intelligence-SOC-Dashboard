@@ -18,6 +18,7 @@ Frontend Features: Threat feed dashboard with German sector filters, IOC matchin
 Why It Matters: The BSI's role as the central clearinghouse for federal cybersecurity cooperation (§4 I BSIG) makes threat intelligence sharing a national priority. With NIS2 expanding to ~30,000 entities, the ACS and UP KRITIS networks are growing rapidly. German employers value analysts who understand cooperative defense—a core pillar of Germany's cybersecurity strategy. This project shows you can bridge technical SOC work with the collaborative intelligence culture that defines the German market.
 
 **German Threat Intelligence SOC Dashboard**
+
 A single-file, self-contained HTML dashboard for German cybersecurity operations centers (SOCs) integrating threat intelligence from BSI-CERT, ACS (Alliance for Cyber Security), and UP KRITIS sector nodes.
 Overview
 This dashboard provides a unified interface for:
