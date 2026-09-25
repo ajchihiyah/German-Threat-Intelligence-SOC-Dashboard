@@ -1,3 +1,5 @@
+<img width="1171" height="875" alt="image" src="https://github.com/user-attachments/assets/7981a21e-b90f-426b-a3ed-ef922ef451fe" />
+
 # German-Threat-Intelligence-SOC-Dashboard
 A Comprehensive SOC analyst frontend for the German threat intelligence sharing ecosystem. 
 
