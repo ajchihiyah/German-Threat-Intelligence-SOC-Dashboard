@@ -19,6 +19,18 @@ Generates sector-specific threat briefings for management (e.g., "Healthcare ran
 Frontend Features: Threat feed dashboard with German sector filters, IOC matching engine with internal SIEM integration, anonymized incident contribution wizard, sector threat trend visualizations, and BSI Lagebericht (situation report) style executive summaries.
 Why It Matters: The BSI's role as the central clearinghouse for federal cybersecurity cooperation (§4 I BSIG) makes threat intelligence sharing a national priority. With NIS2 expanding to ~30,000 entities, the ACS and UP KRITIS networks are growing rapidly. German employers value analysts who understand cooperative defense—a core pillar of Germany's cybersecurity strategy. This project shows you can bridge technical SOC work with the collaborative intelligence culture that defines the German market.
 
+## Architecture & Production Path
+
+**Current implementation:** Zero-dependency, single-file vanilla JS (HTML/CSS/JS) —
+deployable in restricted SOC environments with no build step or external dependencies.
+
+**Production implementation path:** Where multi-user, real-time, or enterprise integration
+requirements demand it, the production build is implemented in **React with D3.js/Chart.js**
+for componentized state management, API-driven data layers, and role-based access —
+migrating the current state-driven rendering pattern into a component architecture.
+
+---
+
 **German Threat Intelligence SOC Dashboard**
 
 A single-file, self-contained HTML dashboard for German cybersecurity operations centers (SOCs) integrating threat intelligence from BSI-CERT, ACS (Alliance for Cyber Security), and UP KRITIS sector nodes.
